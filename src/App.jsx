@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import greetingImage from "./assets/gcggg.jpg";
+import greetingImage from "./assets/defence.jpg";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
