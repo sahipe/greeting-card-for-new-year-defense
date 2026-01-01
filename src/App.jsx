@@ -152,13 +152,13 @@ function App() {
               className="w-full h-full object-cover"
             />
 
-            {/* FOOTER TEXT (Name + Designation) */}
+            {/* FOOTER TEXT (Name + Designation......) */}
             <div
-              className="absolute left-1/2 bottom-31   w-[90%] transform -translate-x-1/2 z-10"
+              className="absolute left-1/2 sm:bottom-31 bottom-[52px]  w-[90%] transform -translate-x-1/2 z-10"
               style={{ color: "#000000" }}
             >
               <h2
-                className="font-bold text-start"
+                className="font-bold text-start mt-2"
                 style={{
                   fontSize: "clamp(18px, 2.5vw, 36px)",
                   color: "#1d4595",
@@ -169,7 +169,7 @@ function App() {
               </h2>
 
               <p
-                className="text-start sm:text-xl text-sm mt-1"
+                className="text-start sm:text-xl text-sm "
                 style={{
                   color: "#1f2937",
                   fontWeight: "600",
