@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import greetingImage from "./assets/22.jpeg";
+import greetingImage from "./assets/holi.jpeg";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
@@ -154,13 +154,13 @@ function App() {
 
             {/* FOOTER TEXT (Name + Designation......) */}
             <div
-              className="absolute left-1/2 sm:bottom-31 bottom-[52px]  w-[90%] transform -translate-x-1/2 z-10"
+              className="absolute left-1/2 pl-3 sm:bottom-31 top-[190px]  w-[90%] transform -translate-x-1/2 z-10"
               style={{ color: "#000000" }}
             >
               <h2
                 className="font-bold text-start mt-2"
                 style={{
-                  fontSize: "clamp(18px, 2.5vw, 36px)",
+                  fontSize: "18px",
                   color: "#1d4595",
                   textShadow: "1px 1px 2px #ffffff",
                 }}
