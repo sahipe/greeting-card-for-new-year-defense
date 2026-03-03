@@ -154,7 +154,7 @@ function App() {
 
             {/* FOOTER TEXT (Name + Designation......) */}
             <div
-              className="absolute left-1/2 pl-3 sm:bottom-31 top-[190px]  w-[90%] transform -translate-x-1/2 z-10"
+              className="absolute ml-3 bottom-[52%] left-1/2 w-[90%] transform -translate-x-1/2 z-10"
               style={{ color: "#000000" }}
             >
               <h2
